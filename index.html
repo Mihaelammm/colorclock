@@ -53,7 +53,7 @@ if (seconds < 10) {
 }
 
 var clockFace=hours+':'+minutes +':'+ seconds;
-var hexColor = '#' + (hours+80) + minutes + seconds;
+var hexColor = '#' + hours + minutes + seconds;
 
 document.getElementById('clock').innerHTML = clockFace;
 document.body.style.background = hexColor;
